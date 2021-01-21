@@ -15,7 +15,7 @@ chmod -R a+w /github/workspace
 # Build the Jekyll site
 ####################################################
 
-JEKYLL_ENV=production bundle exec jekyll build --trace
+JEKYLL_ENV=production jekyll build --trace
 
 ####################################################
 # Build completed
